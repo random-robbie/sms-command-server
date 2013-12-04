@@ -22,7 +22,7 @@ $number = "Auth Number";  // ENTER THE MOBILE NUMBER THAT YOU WISH TO ALLOW TO C
 
 // Errors
 $notauth = "Sorry you are not authorised to do anything on this server.";
-$notfound = "Command not found ".$content."";
+$notfound = "Command not found sorry try again.";
 
 // database connection
 $dbh = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
