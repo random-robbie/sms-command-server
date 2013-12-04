@@ -39,3 +39,12 @@ import the command.sql in to your database
 add the commands you wish to use and set a keyword.
 
 now to to the textlocal account settings for the inbox and ensure you set the url to your script and hey presto working sms commands.
+
+to add a command simply open up phpmyadmin and insert in to the table 
+
+```
+keyword - the sms command you want to use
+command - the command line you wish to perform
+```
+
+any issues or errors please let me know! txt3rob@gmail.com
