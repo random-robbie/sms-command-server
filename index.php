@@ -36,7 +36,7 @@ $sender = preg_replace($ptn, $rpltxt, $sender2);
 $content = str_replace($smskey, "", $content2);
 
 // Not Authorised
-if (array_key_exists($sender, $number)) {
+if (in_array($sender, $number)) {
 //Continue
 } else {
 sms ($sender,$notauth);
