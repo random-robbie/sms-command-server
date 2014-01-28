@@ -18,7 +18,7 @@ $dbname		= "commands";
 $dbuser		= "MYUSERNAME";
 $dbpass		= "MYPASS";
 $smskey = "YOUR KEYWORD";  // NOTE YOU MUST ADD A SPACE FOR THIS TO WORK
-$number = array (Auth Number);  // ENTER THE MOBILE NUMBERS THAT YOU WISH TO ALLOW TO CONTROL TO PUT A COMMOR BETWEEN THE NUMBERS
+$number = array ("Auth Number");  // ENTER THE MOBILE NUMBERS THAT YOU WISH TO ALLOW TO CONTROL TO PUT A COMMOR BETWEEN THE NUMBERS
 
 // Errors
 $notauth = "Sorry you are not authorised to do anything on this server.";
