@@ -18,7 +18,7 @@ $dbname		= "commands";
 $dbuser		= "MYUSERNAME";
 $dbpass		= "MYPASS";
 $smskey = "YOUR KEYWORD";  // NOTE YOU MUST ADD A SPACE FOR THIS TO WORK
-$number = "Auth Number";  // ENTER THE MOBILE NUMBER THAT YOU WISH TO ALLOW TO CONTROL TO
+$number = array (Auth Number);  // ENTER THE MOBILE NUMBERS THAT YOU WISH TO ALLOW TO CONTROL TO PUT A COMMOR BETWEEN THE NUMBERS
 
 // Errors
 $notauth = "Sorry you are not authorised to do anything on this server.";
@@ -36,8 +36,8 @@ $sender = preg_replace($ptn, $rpltxt, $sender2);
 $content = str_replace($smskey, "", $content2);
 
 // Not Authorised
-if ($number == $sender) {
-//Continue on 
+if (array_key_exists($sender, $number)) {
+//Continue
 } else {
 sms ($sender,$notauth);
 exit();
