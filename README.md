@@ -1,6 +1,8 @@
 sms-command-server
 ==================
 
+THIS IS NOW OLD AND YOU SHOULD USE V2 
+
 Send a SMS to Control Your Linux Box via SMS
 
 You will require a www.textlocal.com account.
